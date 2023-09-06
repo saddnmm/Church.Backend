@@ -30,7 +30,7 @@ namespace Church.Domain
         public string 
             Employee_description_about { get; set; }
 
-        public int 
+        public Guid 
             Employee_role_Id { get; set; }
     }
 }
