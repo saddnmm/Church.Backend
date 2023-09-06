@@ -17,6 +17,6 @@ namespace Church.Application.Church.Commands.CreateEmployee
 
         public string Employee_description_about { get; set; }
 
-        public int Employee_role_Id { get; set; }
+        public Guid Employee_role_Id { get; set; }
     }
 }
