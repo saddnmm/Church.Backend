@@ -24,6 +24,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailController", "EmailController", "{727E1442-0CC1-4739-B8D3-CCACF97DFA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Church.Email", "Church.Email\Church.Email.csproj", "{35CBB2DF-23D4-412F-86DB-05100FE74E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{A9F916FF-F465-4BBB-9F14-D2CE2D0DD72C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +52,14 @@ Global
 		{471F7ADB-C4E8-440C-A718-A8FF9BBCAE5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471F7ADB-C4E8-440C-A718-A8FF9BBCAE5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{471F7ADB-C4E8-440C-A718-A8FF9BBCAE5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CBB2DF-23D4-412F-86DB-05100FE74E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CBB2DF-23D4-412F-86DB-05100FE74E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CBB2DF-23D4-412F-86DB-05100FE74E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CBB2DF-23D4-412F-86DB-05100FE74E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F916FF-F465-4BBB-9F14-D2CE2D0DD72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F916FF-F465-4BBB-9F14-D2CE2D0DD72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F916FF-F465-4BBB-9F14-D2CE2D0DD72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F916FF-F465-4BBB-9F14-D2CE2D0DD72C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +69,8 @@ Global
 		{781B55C2-C7C4-461C-ABD2-F507B5B958E1} = {DA082062-4034-4A27-95C9-5F7383FF6A49}
 		{2BD73538-6D44-4DD5-9F8B-7114450840CC} = {5B6E0D0D-441F-4627-B9B8-F2898194F929}
 		{471F7ADB-C4E8-440C-A718-A8FF9BBCAE5B} = {17E2E9C8-640A-4E51-A16C-570F5F4691FD}
+		{35CBB2DF-23D4-412F-86DB-05100FE74E9C} = {727E1442-0CC1-4739-B8D3-CCACF97DFA6E}
+		{A9F916FF-F465-4BBB-9F14-D2CE2D0DD72C} = {727E1442-0CC1-4739-B8D3-CCACF97DFA6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {38BC535F-CCE6-4829-B9BB-AFA6986B37DD}
